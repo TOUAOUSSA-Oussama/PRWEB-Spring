@@ -1,0 +1,16 @@
+org.centrale.prwebspring.controllers.BookController=org.springframework.stereotype.Component
+org.centrale.prwebspring.controllers.BorrowController=org.springframework.stereotype.Component
+org.centrale.prwebspring.controllers.LoginController=org.springframework.stereotype.Component
+org.centrale.prwebspring.controllers.PersonController=org.springframework.stereotype.Component
+org.centrale.prwebspring.items.Book=javax.persistence.Entity,javax.persistence.Table,javax.persistence.NamedQueries
+org.centrale.prwebspring.items.Book_=javax.persistence.metamodel.StaticMetamodel,javax.annotation.processing.Generated
+org.centrale.prwebspring.items.Borrow=javax.persistence.Entity,javax.persistence.Table,javax.persistence.NamedQueries
+org.centrale.prwebspring.items.Borrow_=javax.persistence.metamodel.StaticMetamodel,javax.annotation.processing.Generated
+org.centrale.prwebspring.items.Person=javax.persistence.Entity,javax.persistence.Table,javax.persistence.NamedQueries
+org.centrale.prwebspring.items.Person_=javax.persistence.metamodel.StaticMetamodel,javax.annotation.processing.Generated
+org.centrale.prwebspring.repositories.BookRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+org.centrale.prwebspring.repositories.BookRepositoryCustomImpl=org.springframework.stereotype.Component
+org.centrale.prwebspring.repositories.BorrowRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+org.centrale.prwebspring.repositories.BorrowRepositoryCustomImpl=org.springframework.stereotype.Component
+org.centrale.prwebspring.repositories.PersonRepository=org.springframework.stereotype.Component,org.springframework.data.repository.Repository
+org.centrale.prwebspring.repositories.PersonRepositoryCustomImpl=org.springframework.stereotype.Component
